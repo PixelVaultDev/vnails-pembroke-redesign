@@ -235,7 +235,7 @@ dt { color: rgba(255,255,255,.68); } dd { margin: 0; font-weight: 950; text-alig
     gap: 12px;
     place-items: stretch;
     overflow: visible;
-    margin-top: 26px;
+    margin-top: -185px;
     padding-top: 0;
   }
   .phone-frame { order: 3; width: min(320px, 86vw); margin: 0 auto; border-radius: 40px; z-index: 1; }
