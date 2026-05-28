@@ -222,10 +222,10 @@ dt { color: rgba(255,255,255,.68); } dd { margin: 0; font-weight: 950; text-alig
   h2 { font-size: clamp(36px, 11vw, 52px); }
   .hero { grid-template-columns: 1fr; padding-inline: 12px; padding-bottom: 42px; }
   .hero-stage {
-    min-height: 640px;
+    min-height: 618px;
     display: block;
     overflow: visible;
-    padding-top: 172px;
+    padding-top: 150px;
   }
   .phone-frame { width: min(320px, 86vw); margin: 0 auto; border-radius: 40px; z-index: 1; }
   .floating-card {
