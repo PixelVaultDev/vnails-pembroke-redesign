@@ -10,15 +10,37 @@ A polished static website redesign for V Nails Spa in Pembroke, Ontario.
 - Portfolio gallery with optimized local WebP images
 - Gift certificate CTA
 - Contact, store hours, and Google Maps CTA
+- Favicon and social/link preview image
+- Vite build setup for Hostinger Git import
 - GitHub Pages deployment workflow
+
+## Hostinger Git import settings
+
+This repo is set up as a Vite static site so Hostinger can detect and build it.
+
+Use these settings if Hostinger asks:
+
+- Framework: **Vite**
+- Install command: `npm ci`
+- Build command: `npm run build`
+- Output / publish directory: `dist`
+- Node version: 22 or latest LTS
 
 ## Local preview
 
 ```bash
-python3 -m http.server 4173
+npm ci
+npm run dev
 ```
 
-Then visit `http://localhost:4173`.
+Then visit the local URL shown by Vite.
+
+To test the production build:
+
+```bash
+npm run build
+npm run preview
+```
 
 ## Notes
 

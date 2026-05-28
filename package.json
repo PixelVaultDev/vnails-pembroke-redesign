@@ -1,0 +1,14 @@
+{
+  "name": "vnails-pembroke-redesign",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && mkdir -p dist/assets && cp assets/og-image.jpg dist/assets/og-image.jpg",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}
