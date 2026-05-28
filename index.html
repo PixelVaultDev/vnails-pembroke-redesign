@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=mobile-polish-0d48e1b" />
+  <link rel="stylesheet" href="styles.css?v=footer-polish-ac6f2b8" />
 </head>
 <body>
   <header class="site-header" id="home">
     <a class="brand" href="#home" aria-label="V Nails Spa home">
       <img src="assets/vnails-logo.png" alt="V Nails Spa logo" />
+      <span class="brand-wordmark">V Nails Spa</span>
     </a>
     <nav aria-label="Primary navigation">
       <a href="#services">Services</a>
@@ -28,6 +29,7 @@
     <section class="hero">
       <div class="hero-copy-block">
         <p class="eyebrow">Downtown Pembroke nail salon</p>
+        <p class="hero-brand">V Nails Spa</p>
         <h1>Fresh nails, soft details, and a relaxing spa visit.</h1>
         <p class="hero-copy">A friendly, family-run nail salon offering manicures, pedicures, shellac, acrylics, dip, nail art, and waxing at 80 Pembroke Street West.</p>
         <div class="hero-actions">
@@ -240,20 +242,49 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="footer-inner">
-      <div>
-        <img src="assets/vnails-logo.png" alt="V Nails Spa logo" />
-        <p>Beautiful nails, relaxing experience.</p>
+      <div class="footer-brand-card">
+        <a class="footer-brand" href="#home" aria-label="V Nails Spa home">
+          <span class="footer-monogram">V</span>
+          <span>
+            <strong>V Nails Spa</strong>
+            <small>Beautiful nails, relaxing experience.</small>
+          </span>
+        </a>
+        <p>Fresh manicures, relaxing pedicures, acrylics, shellac, dip, nail art, waxing, and gift certificates in downtown Pembroke.</p>
+        <div class="footer-actions">
+          <a class="button primary" href="tel:+16137355609">Call 613-735-5609</a>
+          <a class="footer-map-link" href="https://www.google.com/maps/search/?api=1&query=80%20Pembroke%20St%20W%2C%20Pembroke%2C%20ON%20K8A%205M6" target="_blank" rel="noopener">Get Directions →</a>
+        </div>
       </div>
-      <nav aria-label="Footer navigation">
-        <a href="#home">Home</a>
-        <a href="#services">Services</a>
-        <a href="#menu">Menu</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#visit">Contact</a>
-      </nav>
-      <p>© 2026 V Nails Spa. All rights reserved.</p>
+
+      <div class="footer-columns">
+        <div>
+          <h3>Explore</h3>
+          <nav aria-label="Footer navigation">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#menu">Price Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#visit">Contact</a>
+          </nav>
+        </div>
+        <div>
+          <h3>Visit</h3>
+          <ul class="footer-list">
+            <li>80 Pembroke St W</li>
+            <li>Pembroke, ON K8A 5M6</li>
+            <li>Mon–Sat · 10am–7pm</li>
+            <li>Sunday · Closed</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 V Nails Spa. All rights reserved.</span>
+        <span>Walk-ins welcome · Gift certificates available</span>
+      </div>
     </div>
   </footer>
 </body>
