@@ -223,40 +223,42 @@ dt { color: rgba(255,255,255,.68); } dd { margin: 0; font-weight: 950; text-alig
   .hero {
     grid-template-columns: 1fr;
     align-items: start;
-    gap: 0;
-    padding-top: 106px;
+    gap: 18px;
+    padding-top: 104px;
     padding-inline: 12px;
-    padding-bottom: 32px;
+    padding-bottom: 28px;
   }
+  .hero-actions { margin-top: 24px; gap: 10px; }
+  .hero-actions .button { flex: 1 1 calc(50% - 5px); min-height: 50px; padding-inline: 14px; }
   .hero-stage {
     min-height: auto;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
     place-items: stretch;
     overflow: visible;
-    margin-top: -185px;
+    margin-top: 0;
     padding-top: 0;
   }
-  .phone-frame { order: 3; width: min(320px, 86vw); margin: 0 auto; border-radius: 40px; z-index: 1; }
+  .phone-frame { grid-column: 1 / -1; order: 3; width: min(320px, 86vw); margin: 2px auto 0; border-radius: 40px; z-index: 1; }
   .floating-card {
     position: static;
     z-index: 2;
-    width: min(320px, 86vw);
-    margin: 0 auto;
-    padding: 12px 15px;
-    border-radius: 20px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 11px;
+    border-radius: 18px;
     background: rgba(34, 13, 30, .78);
     backdrop-filter: blur(18px) saturate(150%);
     animation: none;
   }
-  .floating-card span { font-size: 10px; }
-  .floating-card strong { font-size: 15px; line-height: 1.15; }
+  .floating-card span { font-size: 9px; letter-spacing: .08em; }
+  .floating-card strong { font-size: 13px; line-height: 1.15; }
   .card-one { order: 1; }
   .card-two { order: 2; display: block; }
-  .hero-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 24px; }
-  .hero-stats div { min-width: 0; padding: 12px 8px; border-radius: 18px; text-align: center; }
-  .hero-stats strong { font-size: 22px; }
+  .hero-stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; margin-top: 18px; }
+  .hero-stats div { min-width: 0; padding: 10px 7px; border-radius: 18px; text-align: center; }
+  .hero-stats strong { font-size: 21px; }
   .hero-stats span { font-size: 9px; letter-spacing: .08em; }
   .section-wrap { width: min(100% - 24px, 1180px); }
   .experience, .services, .menu, .visit { padding: 74px 0; }
