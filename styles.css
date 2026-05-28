@@ -236,7 +236,7 @@ dt { color: rgba(255,255,255,.68); } dd { margin: 0; font-weight: 950; text-alig
   }
   .floating-card span { font-size: 10px; }
   .floating-card strong { font-size: 15px; line-height: 1.15; }
-  .card-one { left: 10px; top: 18px; }
+  .card-one { left: 14px; top: -92px; }
   .card-two { display: block; right: 10px; bottom: 18px; }
   .hero-stats { display: grid; grid-template-columns: 1fr; }
   .section-wrap { width: min(100% - 24px, 1180px); }
