@@ -1,3 +1,9 @@
+import manicureImage from './assets/about.webp';
+import pedicureImage from './assets/feature-pedicure.webp';
+import acrylicImage from './assets/gallery/gallery-04.webp';
+import artImage from './assets/gallery/gallery-03.webp';
+import waxingImage from './assets/gallery/gallery-09.webp';
+
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 window.addEventListener('load', () => {
@@ -94,33 +100,33 @@ if (!reduceMotion && window.matchMedia('(pointer: fine)').matches) {
 
 const serviceData = {
   manicure: {
-    title: 'Clean, shaped, polished hands.',
-    copy: 'Classic colour, shellac, polish changes, and kid-friendly manicure options.',
-    image: 'assets/about.webp',
+    title: 'Manicure',
+    copy: 'Classic polish, shellac, polish changes, and simple nail care.',
+    image: manicureImage,
     alt: 'Detailed manicure set at V Nails Spa'
   },
   pedicure: {
-    title: 'Relaxed feet and fresh toes.',
-    copy: 'Foot and toenail care designed to leave you feeling refreshed, polished, and ready.',
-    image: 'assets/feature-pedicure.webp',
+    title: 'Pedicure',
+    copy: 'Relaxing foot care and fresh polish for clean, comfortable toes.',
+    image: pedicureImage,
     alt: 'Pedicure nail art at V Nails Spa'
   },
   acrylic: {
-    title: 'Length, strength, and style.',
-    copy: 'Acrylic full sets, refills, solar gel, dip real nails, ombre, removals, and quick fixes.',
-    image: 'assets/gallery/gallery-04.webp',
+    title: 'Acrylic & Dip',
+    copy: 'Full sets, refills, dip powder, ombre, removals, and repairs.',
+    image: acrylicImage,
     alt: 'Detailed acrylic nail art'
   },
   art: {
-    title: 'Soft details or statement sets.',
-    copy: 'Creative accents, seasonal designs, bright colour, neutrals, and custom finishing touches.',
-    image: 'assets/gallery/gallery-03.webp',
+    title: 'Nail Art',
+    copy: 'Simple accents, seasonal designs, colours, and custom details.',
+    image: artImage,
     alt: 'Pink nail art set'
   },
   waxing: {
-    title: 'Smooth, tidy, and simple.',
-    copy: 'Brows, lip, chin, face, arms, legs, underarms, and bikini line waxing services.',
-    image: 'assets/gallery/gallery-09.webp',
+    title: 'Waxing',
+    copy: 'Brows, lip, chin, face, arms, legs, underarms, and bikini line.',
+    image: waxingImage,
     alt: 'Spa chair and pedicure service area'
   }
 };
