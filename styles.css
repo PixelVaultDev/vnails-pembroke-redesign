@@ -211,7 +211,7 @@ dt { color: rgba(255,255,255,.68); } dd { margin: 0; font-weight: 950; text-alig
   .experience-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 760px) {
-  .cursor-glow { display: none; }
+  .cursor-glow, .hero-orbit { display: none; }
   .site-header { top: 10px; border-radius: 28px; align-items: flex-start; }
   .menu-toggle { display: block; flex: 0 0 auto; }
   .primary-nav { position: fixed; left: 14px; right: 14px; top: 78px; display: grid; gap: 8px; padding: 16px; border-radius: 26px; background: rgba(20,7,18,.94); border: 1px solid rgba(255,255,255,.12); backdrop-filter: blur(22px); opacity: 0; visibility: hidden; transform: translateY(-12px); transition: all .25s ease; }
