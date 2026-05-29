@@ -2,7 +2,7 @@ import manicureImage from './assets/about.webp';
 import pedicureImage from './assets/feature-pedicure.webp';
 import acrylicImage from './assets/gallery/gallery-04.webp';
 import artImage from './assets/gallery/gallery-03.webp';
-import waxingImage from './assets/gallery/gallery-09.webp';
+import waxingImage from './assets/gallery/gallery-10.webp';
 
 const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
@@ -127,7 +127,7 @@ const serviceData = {
     title: 'Waxing',
     copy: 'Brows, lip, chin, face, arms, legs, underarms, and bikini line.',
     image: waxingImage,
-    alt: 'Spa chair and pedicure service area'
+    alt: 'Pink hand nail design at V Nails Spa'
   }
 };
 const serviceTitle = document.querySelector('#service-title');
